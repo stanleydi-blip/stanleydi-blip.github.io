@@ -1,0 +1,171 @@
+<!DOCTYPE html><html lang="en">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jedi Academy: Mr./Ms. [Your Last Name]'s Class</title>
+    <!-- Importing a Star Wars-inspired font for a better theme experience -->
+    <link href="fonts.googleapis.com" rel="stylesheet">
+    <style>
+        /* CSS for a Star Wars styling (Dark Side background, Jedi yellow/blue accents) */
+        body {
+            /* Black background with a subtle star effect via a gradient */
+            background: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+            color: #fcd000; /* Main text color: Star Wars yellow */
+            font-family: 'Pathway Gothic One', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            /* Added background image for extra effect (optional, replace URL with your image) */
+            background-image: url('i.imgur.com'); /* A generic space background image */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent black header */
+            color: #fcd000; /* Header text color: yellow */
+            padding-top: 30px;
+            padding-bottom: 10px;
+            border-bottom: #3498db 5px solid; /* Blue border like a lightsaber */
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(75, 213, 238, 0.3); /* Glowing blue shadow */
+        }
+        header h1 {
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 3em;
+            letter-spacing: 3px;
+        }
+        header p {
+            color: #4bd5ee; /* Cyan/Blue accent color */
+            font-size: 1.2em;
+        }
+        .navbar {
+            background: rgba(44, 62, 80, 0.9); /* Darker blue/gray, semi-transparent navbar */
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 2px solid #fcd000;
+        }
+        .navbar a {
+            color: #000000; /* Button text color: black for contrast */
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            background-color: #fcd000; /* Yellow buttons */
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 0 5px #fcd000; /* Yellow glow effect */
+        }
+        .navbar a:hover {
+            background-color: #4bd5ee; /* Blue on hover */
+            box-shadow: 0 0 10px #4bd5ee; /* Blue glow effect on hover */
+            transform: scale(1.05);
+        }
+        .main-content {
+            padding: 30px;
+            background: rgba(10, 10, 10, 0.9); /* Very dark content background */
+            margin-top: 30px;
+            box-shadow: 0 4px 15px rgba(75, 213, 238, 0.4);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #4bd5ee; /* Section headers: Jedi blue */
+            border-bottom: 2px solid #4bd5ee;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .announcement {
+            background: rgba(44, 62, 80, 0.5); /* Slightly lighter dark background for announcements */
+            padding: 20px;
+            border-left: #e74c3c 8px solid; /* Sith red accent border */
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #ffffff; /* White text for readability against dark gray */
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #fcd000; /* Footer text: yellow */
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 -4px 8px rgba(75, 213, 238, 0.2);
+        }
+        a {
+            color: #4bd5ee; /* Link text color: blue */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #e74c3c; /* Red on hover */
+            text-decoration: underline;
+        }
+        ul li a {
+            color: #fcd000; /* List links default to yellow */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Original Info kept, themed titles added around it -->
+            <h1>Welcome to the Jedi Academy</h1>
+            <p><strong>Mr./Ms. [Your Last Name]'s Class | 6th Period | Room [Your Room Number]</strong></p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <!-- Original Anchor links kept -->
+            <a href="#home">Mission Briefing</a>
+            <a href="#announcements">Transmission Log</a>
+            <a href="#resources">Data Archives</a>
+            <a href="mailto:your.email@school.edu">Contact Astromech</a>
+        </div>
+    </nav>
+
+    <div class="container main-content">
+        <h2 id="announcements">Current Objectives & Transmission Log</h2>
+        <div class="announcement">
+            <!-- Original announcement text kept -->
+            <strong>Oct 25:</strong> Science fair projects are due this Friday! Check the [school calendar](link_to_your_school_calendar) for details.
+        </div>
+        <div class="announcement">
+             <!-- Original announcement text kept -->
+            <strong>Oct 24:</strong> Please read Chapter 3 for tomorrow's literature discussion.
+        </div>
+
+        <h2 id="resources">Jedi Data Archives</h2>
+        <p>Access vital mission data and links:</p>
+        <ul>
+             <riginal footer info kept -->
+        <p>[School Name] | [Your Email Address]</p>
+        <p id="current-time"></p>
+    </footer>
+
+    <!-- JavaScript to display the current date and time -->
+    <script>
+        const now = new Date();
+        document.getElementById('current-time').innerText = 'System Status (Page last updated/viewed): ' + now.toLocaleString();
+    </script>
+
+</body>
+</html>!-- Original links/anchor text kept -->
+            <li><a href="url_to_doc">Curriculum overview document</a></li>
+            <li><a href="url_to_game">Link to educational game website</a></li>
+            <li><a href="url_to_contact_page_or_form">Contact Form Link</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <!-- O
